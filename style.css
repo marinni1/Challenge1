@@ -1,0 +1,25 @@
+.container {
+    width: 1440px;
+    height: 1560px;
+    background-color: rgb(70, 70, 138);
+}
+
+nav {
+    height: 164px;
+    background: linear-gradient(90deg, #283F5B 65.24%, #D78CD6 100%);
+    align-items: flex-end;
+
+
+}
+
+nav img {
+    padding-left: 137px; 
+    padding-right: 1050px;
+    padding-top: 38px;
+    width: 252px;
+
+}
+
+nav h3 { 
+display: flex
+}

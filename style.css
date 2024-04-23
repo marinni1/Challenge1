@@ -1,25 +1,113 @@
-.container {
-    width: 1440px;
+.body {
     height: 1560px;
-    background-color: rgb(70, 70, 138);
+    width: 1440px;
+    background-image: url('./Img/back.jpg');
+    background-size: cover;
 }
 
-nav {
-    height: 164px;
+.header {
+    position: absolute;
+    width: 1440px;
+    height: 116px;
     background: linear-gradient(90deg, #283F5B 65.24%, #D78CD6 100%);
-    align-items: flex-end;
-
-
+    margin-top: 0;
+    margin-left: 0;
 }
 
-nav img {
-    padding-left: 137px; 
-    padding-right: 1050px;
-    padding-top: 38px;
-    width: 252px;
-
+.logo {
+    position: absolute;
+    width: 276px;
+    height: 37px;
+    margin-top: 38px;
+    margin-left: 137px;
 }
 
-nav h3 { 
-display: flex
+.pHedaer{
+    position: absolute;
+    font-family: "Kyiv*Type Serif";
+    margin-top: 53px;
+    font-weight: normal;
+    font-size: 18px;
+    color: white;
+}
+
+.title {
+    position: absolute;
+    font-size: 32px;
+    color: white;
+    width: 414px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Kyiv*Type Serif";
+    background: radial-gradient(50% 50% at 50% 50%, #DF90DC 0%, rgba(40, 64, 92, 0.00) 100%);
+}
+
+.textCard {
+    position: absolute;
+    border-radius: 8px;
+    background: linear-gradient(95deg, rgba(40, 63, 91, 0.80) 1.69%, rgba(11, 26, 46, 0.80) 77.72%);
+}
+
+.cardTitle{
+    position: absolute;
+    font-size: 28px;
+    font-family: "Kyiv*Type Serif";
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.cardText1{
+    position: absolute;
+    font-size: 24px;
+    font-family: "Kyiv*Type Serif";
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    margin-left: 569px; 
+    margin-top: 257px; 
+    width: 753px;
+}
+
+.cardText2{
+    position: absolute;
+    font-size: 22px;
+    font-family: "Kyiv*Type Serif";
+    font-weight: normal;
+    color: white;
+    text-align: left;
+    margin-left: 100px; 
+    margin-top: 1012px; 
+    width: 527px;
+    height: 216px;
+}
+
+.ImgCards{
+    position: absolute;
+    width: 1468px; 
+    height: 514px; 
+    margin-left: 60px; 
+    margin-top: 250px;
+}
+
+.button{
+    position: absolute;
+    font-size: 18px;
+    width: 237px;
+    height: 29px;
+    background-color: #DF90DC;
+    color: white;
+    margin-left: 264px;
+    margin-top: 1299px;
+    text-align: center;
+    border-radius: 71px;
+    padding-top: 5px;
+}
+
+.ImgPlanets{
+    position: absolute;
+    width: 649px; 
+    height: 654px; 
+    margin-left: 739px; 
+    margin-top: 844px;
 }
